@@ -1,9 +1,9 @@
-import React from 'react'
-
-function GIFTranslation() {
+function GIFTranslation({GIFsLinks}) {
   return (
-    <div>GIFTranslation</div>
-  )
+      GIFsLinks.map((url)=>{
+            return <img src={url} alt="gif" key={url}/>
+        })
+    )
 }
 
 export default GIFTranslation

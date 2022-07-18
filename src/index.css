@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(16, 16, 28);
+    margin: auto;
+}
+
+img {
+    height: 200px;
+}
+
+#container {
+    margin:auto;
+    width: fit-content;
+    height: fit-content;
+}
