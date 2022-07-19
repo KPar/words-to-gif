@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div id="container">
+      <h1>Words to GIF</h1>
       <Input setWords = {setWords}/>
       <div id="gifsContainer">
         <GIFTranslation id="gifs" GIFsLinks = {GIFsLinks}/>
