@@ -9,6 +9,43 @@ img {
 
 #container {
     margin:auto;
-    width: fit-content;
-    height: fit-content;
+    width: 80vw;
+    margin-top: 200px;
 }
+
+#inputForm {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+}
+
+#inputField {    
+    width: 30vw;
+    font-size: 15px;
+    outline: none;
+    padding: 13px 25px 13px 25px;
+    background-color: white;
+    margin: 0px auto;
+    border: 0.7px solid rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+#translateButton {
+    border: 0.7px solid rgb(180, 180, 180);
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+}
+
+#translateButton:hover{
+    background-color: rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+#gifsContainer {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
